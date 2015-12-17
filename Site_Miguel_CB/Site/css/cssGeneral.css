@@ -165,22 +165,38 @@ p {
   height: 50px;
 }
 
-.contacto {
+.contacto, .ondeEstou {
   background-color: #E6E6E6;
   border: 1px solid blue;
   overflow: hidden;
 }
 
-.logoContacto img {
+.logoContacto img, .logoOndeEstou img {
   display: block;
   height: 150px;
   margin: 40px auto 100px auto;
 }
 
-.contactosContacto img {
+.contactosContacto img, .contactosOndeEstou img {
   display: block;
   height: 100px;
   margin: 10px auto 200px auto;
+}
+
+.lisboaOndeEstou {
+  text-align: center;
+  width: 45%;
+  border-bottom: 1px solid gray
+}
+
+.lisboaOndeEstou h2 {
+  color: gray;
+  margin-bottom: 1px;
+}
+
+.laboratorioOndeEstou {
+  width: 100%;
+  margin-left: 15%;
 }
 
 

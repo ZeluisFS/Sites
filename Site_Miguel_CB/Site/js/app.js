@@ -30,6 +30,14 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       controller: function() {
         console.log('Entrou nos contactos');
       }
+    })
+
+    .state('ondeEstou', {
+      url: '/ondeEstou', 
+      templateUrl: 'ondeEstou.html', 
+      controller: function() {
+        console.log('Entrou no ondeEstou');
+      }
     });
 
 } );
