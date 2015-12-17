@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Load CSS -->
+  <link rel="stylesheet" href="css/cssGeneral.css">
+
+  <!-- Load Angular, UI-Router and our JS file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+  <script src="js/app.js"></script>
+
+  <title>MCB Homeopatia</title>
+
+</head>
+
+
+
+<body ng-app="routerApp">
+
+  <header class="header">
+
+  <!-- Logo do site -->
+    <div class="row">
+        <div class="column ocuppies_2_of_2">
+            <img id="logo" src="img/logo.png">
+        </div>
+    </div>
+
+  <!-- Barra de navegacao do website -->
+    <div class="row">
+        <div class="column ocuppies_2_of_2">
+            <nav id="mainMenu">
+                <ul>
+                    <li><a ui-sref="homeopatia"><img id="nav1" src="img/header/botaoHomeopatiaOff.png"></a></li>
+                    <li><a ui-sref="quemSou"><img id="nav2" src="img/header/botaoQuemSouOff.png"></a></li>
+                    <li><a ui-sref=""><img id="nav3" src="img/header/botaoQuestoesOff.png"></a></li>
+                    <li><a ui-sref="contacto"><img id="nav4" src="img/header/botaoContactosOff.png"></a></li>
+                    <li><a ui-sref=""><img id="nav5" src="img/header/botaoOndeEstouOff.png"></a></li>
+                    <li><a ui-sref=""><img id="nav6" src="img/header/botaoBlogOff.png"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+  </header>
+
+  <!-- Conteudo do site que vai ser injectado via angular UI -->
+  <section ui-view>
+  </section>
+
+</body>
+</html>
