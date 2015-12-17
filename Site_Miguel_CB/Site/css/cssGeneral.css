@@ -40,7 +40,6 @@ p {
 #mainMenu {
   padding: 0px, 10%, 0px, 10%;
   margin: 31px, auto, 45px, auto;
-  text-align: center;
   border-bottom: 1px solid #808080; 
 }
 
@@ -59,8 +58,8 @@ p {
 #mainMenu ul li:first-child {margin-left: 0%;}
 
 #mainMenu ul li a img {
-  height: 50px;
-  width: 6%;
+  height: 60px;
+  width: 8%;
 }
 
 .full{
@@ -184,6 +183,7 @@ p {
 }
 
 .lisboaOndeEstou {
+  margin-top: 45px;
   text-align: center;
   width: 45%;
   border-bottom: 1px solid gray
@@ -196,7 +196,51 @@ p {
 
 .laboratorioOndeEstou {
   width: 100%;
-  margin-left: 15%;
+  margin-left: 12%;
+  margin-top: 45px;
+}
+
+.laboratorioOndeEstou img {
+  display: block;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.moradaLabOndeEstou1 {
+  display: inline-block;
+  width: 17%;
+  border-right: 2px solid gray
+}
+
+.moradaLabOndeEstou2 {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.moradaLabOndeEstou1 h4 {
+  margin: 0 1px 0 1px;
+  color: gray;
+}
+
+.moradaLabOndeEstou2 p {
+  color: gray;
+  margin: 5px 0 5px 0;
+}
+
+.logoOndeEstou {
+  text-align: center;
+}
+
+.logoOndeEstou img {
+  margin-bottom: 20px;
+}
+
+.logoOndeEstou h2 {
+  color: gray;
+}
+
+.contactosOndeEstou {
+  margin-top: 100px;
 }
 
 
