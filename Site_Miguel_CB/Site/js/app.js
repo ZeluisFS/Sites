@@ -10,34 +10,27 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 
     .state('homeopatia', {
       url: '/homeopatia',
-      templateUrl: 'homeopatia.html', 
-      controller: function() {
-        console.log("Entrou no homeopatia");
-      }
+      templateUrl: 'homeopatia.html'
     })
 
     .state('quemSou', {
       url: '/quemSou', 
-      templateUrl: 'quemSou.html', 
-      controller: function() {
-        console.log('Entrou no quemSou');
-      }
+      templateUrl: 'quemSou.html'
     })
 
     .state('contacto', {
       url: '/contacto', 
-      templateUrl: 'contacto.html', 
-      controller: function() {
-        console.log('Entrou nos contactos');
-      }
+      templateUrl: 'contacto.html'
     })
 
     .state('ondeEstou', {
       url: '/ondeEstou', 
-      templateUrl: 'ondeEstou.html', 
-      controller: function() {
-        console.log('Entrou no ondeEstou');
-      }
+      templateUrl: 'ondeEstou.html'
+    })
+
+    .state('blog', {
+      url: '/blog', 
+      templateUrl: 'blog.html'
     });
 
 } );
