@@ -170,10 +170,10 @@ p {
   overflow: hidden;
 }
 
-.logoContacto img, .logoOndeEstou img, .logoBlog img {
+.logoContacto img, .logoOndeEstou img, .logoBlog img, .logoQuestoes img {
   display: block;
   height: 150px;
-  margin: 40px auto 100px auto;
+  margin: 40px auto 20px auto;
 }
 
 .contactosContacto img, .contactosOndeEstou img {
@@ -248,6 +248,99 @@ p {
   color: #666666;
 }
 
+.artigos1Blog {
+  display: inline-block;
+  width: 50%;
+  border-right: 1px solid gray;
+}
+
+.artigos2Blog {
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  width: 49%;
+  padding-left: 5%;
+}
+
+.artigos1Blog p:first-child, .artigos2Blog p:first-child {
+  margin-top: 0;
+}
+
+.artigos1Blog p:last-child, .artigos2Blog p:last-child {
+  margin-bottom: 0;
+}
+
+
+.perguntas ul {
+  list-style-type: none;
+  margin-top: 125px;
+}
+
+.perguntas a {
+  width: 60%;
+  display: block;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: 25px auto;
+  padding: 3px;
+  text-align: center;
+}
+
+.perguntas a:link {
+  text-decoration: none;
+}
+
+.perguntas a:hover, .perguntaActiva {
+  color: white !important;
+  background-color: gray;
+}
+
+.resposta {
+  height: 392px;
+  overflow-y: auto;
+  border-radius: 20px;
+  background-color: gray;
+  padding: 10px 20px 4px 20px;
+  text-align: justify;
+} 
+
+.footerBlog {
+  height: 150px;
+  width: 100%;
+  display: none;
+  background-color: #666666;
+}
+
+.footerBlog img {
+  display: inline-block;
+  width: 20%;
+  height: 100px;
+  margin: 25px 0 25px 30px;
+}
+
+.footerBlog ul {
+  float: right;
+  display: inline-block;
+  margin-right: 25px;
+  text-align: right;
+}
+
+.footerBlog li {
+  list-style-type: none;
+  display: block;
+}
+
+.footerBlog a:link, .footerBlog a:visited,
+.footerBlog a:hover, .footerBlog a:active {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
 
 
 .only-mobile { display: none; }
@@ -273,7 +366,7 @@ p {
 
 
 
-
+/*
 @media (min-width: 768px) {
   .row {width: 730px;}
 }
@@ -285,3 +378,4 @@ p {
 @media (min-width: 1220px) {
   .row {width: 1200px;}
 }
+*/

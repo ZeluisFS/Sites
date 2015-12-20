@@ -34,7 +34,7 @@
                 <ul>
                     <li><a ui-sref="homeopatia"><img id="nav1" src="img/header/botaoHomeopatiaOff.png"></a></li>
                     <li><a ui-sref="quemSou"><img id="nav2" src="img/header/botaoQuemSouOff.png"></a></li>
-                    <li><a ui-sref=""><img id="nav3" src="img/header/botaoQuestoesOff.png"></a></li>
+                    <li><a ui-sref="questoesFrequentes"><img id="nav3" src="img/header/botaoQuestoesOff.png"></a></li>
                     <li><a ui-sref="contacto"><img id="nav4" src="img/header/botaoContactosOff.png"></a></li>
                     <li><a ui-sref="ondeEstou"><img id="nav5" src="img/header/botaoOndeEstouOff.png"></a></li>
                     <li><a ui-sref="blog"><img id="nav6" src="img/header/botaoBlogOff.png"></a></li>
@@ -47,6 +47,19 @@
 
   <!-- Conteudo do site que vai ser injectado via angular UI -->
   <section ui-view>
+  </section>
+
+  <!-- Footer que só aparece no Blog -->
+  <section class="footerBlog" id="footerBlog">
+    <img src="img/body/blog/mcbBW.png" alt="Footer body">
+
+    <ul>
+      <li><a ui-sref="homeopatia">Homeopatia</a></li>
+      <li><a ui-sref="quemSou">Quem Sou</a></li>
+      <li><a ui-sref="questoesFrequentes">Questões Frequentes</a></li>
+      <li><a ui-sref="contacto">Contacto</a></li>
+      <li><a ui-sref="ondeEstou">Onde Estou</a></li>
+    </ul>
   </section>
 
 </body>
