@@ -21,32 +21,31 @@
 .no-mobile {display: none;}
 
 p {
-  font-size: small;
+  font-family: Myriad Pro, Helvetica;
+  font-size: 10pt;
   text-align: justify;
+  color: rgb(153, 153, 153);
 }
 
 .header{
   display: block;
-  margin-bottom: 50px;
 }
 
 #logo {
-  width: 30%;
-  margin: auto;
+  width: 23%;
+  margin: 25px auto 0px auto;
   display: block;
 }
 
 
 #mainMenu {
-  padding: 0px, 10%, 0px, 10%;
-  margin: 31px, auto, 45px, auto;
   border-bottom: 1px solid #808080; 
 }
 
 #mainMenu ul {
   text-align: center;
   list-style-type: none;
-  margin: 0% auto;
+  margin: 35px auto 0px auto;
   padding: 0;
 }
 
@@ -58,8 +57,11 @@ p {
 #mainMenu ul li:first-child {margin-left: 0%;}
 
 #mainMenu ul li a img {
-  height: 60px;
-  width: 8%;
+  width: 6%;
+}
+
+#nav3 {
+  width: 11% !important;
 }
 
 .full{
@@ -72,53 +74,61 @@ p {
 }
 
 .conteudoHomeopatia {
-  margin: 0;
-  overflow-y: scroll;
+  height: 311px;
+  overflow-y: auto;
+  padding-right: 45px;
+  margin-top: 50px;
 }
 
-
 .imagemHomeopatia {
-  height: 200px;
+  height: 311px;
   width: 100%;
+  margin-top: 50px;
 }
 
 .footerHomeopatia {
   margin: 30px 0;
 }
 
-.footerHomeopatia img,  .conteudoHomeopatia img {
+.footerHomeopatia img,  .conteudoHomeopatia img, .conteudoQuemSou img {
   display: block;
-  margin: auto;
-  height: 55px;
+  margin: 0px auto 10px auto;
+  width: 20%;
 }
 
 .footerHomeopatia h5 {
   margin: 10px 10px;
   text-align: center;
+  font-family: Lucida Bright;
+  font-style: italic;
+  color: rgb(43, 75, 82);
 }
 
 .imagemQuemSou {
-  width: 100%;
-  height: 500px;
+  display: block;
+  width: 60%;
+  margin: 50px auto 0 auto;
 }
 
 .conteudoQuemSou {
-  height: 500px;
-  margin: 0% 0% 0% 7%;
   text-align: justify;
+  margin-top: 50px;
 }
 
-.conteudoQuemSou img {
-  display: block;
-  margin: auto;
-  height: 100px;
+.conteudoQuemSou section {
+  overflow-y: auto;
+  max-height: 325px; 
 }
 
 .marcacaoConsultas, .entreEmContacto {
   display: block;
-  background-color: gray;
-  height: 60px;
+  background-color: #999999;
+  height: 50px;
   overflow-y: hidden;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
 
 .marcacaoConsultas p, .entreEmContacto p {
@@ -126,7 +136,8 @@ p {
   color: white;
   text-align: center;
   line-height: 1px;
-  font-size: 1.3em;
+  font-size: 13pt;
+  font-family: Lucida Bright;
 }
 
 .telefoneConsultas {
@@ -137,49 +148,70 @@ p {
 .telefoneConsultas img {
   display: block;
   margin: 15px auto 0px auto;
-  width: 50%;
+  width: 40%;
 }
 
 .entreEmContacto {
-  margin: 35px, 0px, 0px, 0px;
+  margin: 15px auto 0px auto;
 }
 
 .entreEmContacto p {
-  margin-top: 30px;
+  margin-top: 24px;
 }
 
 .emailContacto {
-  height: 180px;
-  border-bottom: 1px solid gray;
+  height: 120px;
+  border-bottom: 1px solid #999999;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .emailContacto img {
-  height: 100px;
-  width: 50%;
+  width: 30%;
   display: block;
-  margin: 50px auto 0px auto;
+  margin: 20px auto 0px auto;
+}
+
+.footerContacto {
+  margin-left: 8%;
 }
 
 .footerContacto img {
-  height: 50px;
+  width: 5%;
+  margin-left: 2%;
+}
+
+.footerContacto p {
+  color: #2B4B52;
+  font-family: Lucida Bright;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .contacto, .ondeEstou {
   background-color: #E6E6E6;
-  border: 1px solid blue;
   overflow: hidden;
+  height: 490px;
 }
 
-.logoContacto img, .logoOndeEstou img, .logoBlog img, .logoQuestoes img {
+.logoContacto img, .logoOndeEstou img, .logoBlog img,  .logoQuestoes img {
   display: block;
-  height: 150px;
-  margin: 40px auto 20px auto;
+  margin: 50px auto 10px auto;
+  width: 17%;
+}
+
+.logoQuestoes img {
+  width: 37%;
+}
+
+.logoOndeEstou img {
+  width: 20%;
 }
 
 .contactosContacto img, .contactosOndeEstou img {
   display: block;
-  height: 100px;
-  margin: 10px auto 200px auto;
+  margin: 0 auto 0 auto;
+  width: 45%;
 }
 
 .lisboaOndeEstou {
@@ -190,7 +222,8 @@ p {
 }
 
 .lisboaOndeEstou h2 {
-  color: gray;
+  color: #808080;
+  font-family: Myriad Pro;
   margin-bottom: 1px;
 }
 
@@ -202,8 +235,7 @@ p {
 
 .laboratorioOndeEstou img {
   display: block;
-  height: 120px;
-  margin-bottom: 15px;
+  width: 60%;
 }
 
 .moradaLabOndeEstou1 {
@@ -217,15 +249,26 @@ p {
   margin-left: 2%;
 }
 
+.moradaLabOndeEstou2 p a:link,
+.moradaLabOndeEstou2 p a:visited,
+.moradaLabOndeEstou2 p a:hover,
+.moradaLabOndeEstou2 p a:active {
+  color: #A09F9F;
+}
+
 .moradaLabOndeEstou1 h4 {
   margin: 0 1px 0 1px;
-  color: gray;
+  color: #545453;
+  font-family: Myriad Pro;
 }
 
 .moradaLabOndeEstou2 p {
-  color: gray;
-  margin: 5px 0 5px 0;
+    color: #A09F9F;
+    margin: 2px 0 0 0;
+    font-family: Myriad Pro;
+    font-size: 11pt;
 }
+
 
 .logoOndeEstou {
   text-align: center;
@@ -236,21 +279,36 @@ p {
 }
 
 .logoOndeEstou h2 {
-  color: gray;
+  color: #545453;
+  font-family: Myriad Pro;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .contactosOndeEstou {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.contactosContacto img {
+  margin-top: 80px;
+}
+
+.artigosBlog {
+  margin-top: 50px;
+  box-sizing: border-box;
+  margin-left: 10%;
 }
 
 .artigosBlog h3 {
   text-align: center;
   color: #666666;
+  font-family: Myriad Pro;
+  font-size: 15pt;
 }
 
 .artigos1Blog {
   display: inline-block;
-  width: 50%;
+  width: 49%;
   border-right: 1px solid gray;
 }
 
@@ -270,10 +328,15 @@ p {
   margin-bottom: 0;
 }
 
+.logoBlog img {
+  width: 14% !important;
+}
 
+.perguntas {
+  margin-top: 50px;
+}
 .perguntas ul {
   list-style-type: none;
-  margin-top: 125px;
 }
 
 .perguntas a {
@@ -285,6 +348,7 @@ p {
   margin: 25px auto;
   padding: 3px;
   text-align: center;
+  font-weight: 600;
 }
 
 .perguntas a:link {
@@ -293,30 +357,34 @@ p {
 
 .perguntas a:hover, .perguntaActiva {
   color: white !important;
-  background-color: gray;
+  background-color: rgb(179, 179, 179);
 }
 
 .resposta {
-  height: 392px;
   overflow-y: auto;
   border-radius: 20px;
-  background-color: gray;
-  padding: 10px 20px 4px 20px;
+  background-color: rgb(179, 179, 179);
+  padding: 10px 50px 5px 50px;
   text-align: justify;
+  margin-top: 25px;
 } 
+
+.resposta p {
+  color: white;
+}
 
 .footerBlog {
   height: 150px;
   width: 100%;
   display: none;
   background-color: #666666;
+  margin-top: 50px;
 }
 
 .footerBlog img {
   display: inline-block;
-  width: 20%;
-  height: 100px;
-  margin: 25px 0 25px 30px;
+  width: 15%;
+  margin: 35px 0 25px 30px;
 }
 
 .footerBlog ul {
@@ -335,6 +403,7 @@ p {
 .footerBlog a:hover, .footerBlog a:active {
   text-decoration: none;
   color: white;
+  font-family: Myriad Pro;
 }
 
 
@@ -375,7 +444,10 @@ p {
   .row {width: 970px;}
 }
 
-@media (min-width: 1220px) {
-  .row {width: 1200px;}
-}
-*/
+@media (min-width: 1200px) {
+  .row {width: 1169px;}
+}*/
+
+
+
+

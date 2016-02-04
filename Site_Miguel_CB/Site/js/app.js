@@ -14,11 +14,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: 'homeopatia.html',
       onEnter: function() {
          var logo = document.getElementById("nav1");
-        logo.src = "img/header/botaoHomeopatiaOn.png";
+        logo.src = "img/header/botaoHomeopatiaOn.jpg";
       },
       onExit: function() {
          var logo = document.getElementById("nav1");
-        logo.src = "img/header/botaoHomeopatiaOff.png";
+        logo.src = "img/header/botaoHomeopatiaOff.jpg";
       }
     })
 
@@ -27,11 +27,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: 'quemSou.html',
       onEnter: function() {
          var logo = document.getElementById("nav2");
-        logo.src = "img/header/botaoQuemSouOn.png";
+        logo.src = "img/header/botaoQuemSouOn.jpg";
       },
       onExit: function() {
          var logo = document.getElementById("nav2");
-        logo.src = "img/header/botaoQuemSouOff.png";
+        logo.src = "img/header/botaoQuemSouOff.jpg";
       }
     })
 
@@ -40,11 +40,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: 'questoesMain.html',
       onEnter: function() {
          var logo = document.getElementById("nav3");
-        logo.src = "img/header/botaoQuestoesOn.png";
+        logo.src = "img/header/botaoQuestoesOn.jpg";
       },
       onExit: function() {
          var logo = document.getElementById("nav3");
-        logo.src = "img/header/botaoQuestoesOff.png";
+        logo.src = "img/header/botaoQuestoesOff.jpg";
       }
     })
 
@@ -88,6 +88,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
           url: '/questao8',
           templateUrl: 'questoesFrequentes/questao8.html'
         })
+
+        .state('questoesFrequentes.questao9', {
+          url: '/questao9',
+          templateUrl: 'questoesFrequentes/questao9.html'
+        })
       //End of nested views
 
     .state('contacto', {
@@ -95,11 +100,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: 'contacto.html',
       onEnter: function() {
          var logo = document.getElementById("nav4");
-        logo.src = "img/header/botaoContactosOn.png";
+        logo.src = "img/header/botaoContactosOn.jpg";
       },
       onExit: function() {
          var logo = document.getElementById("nav4");
-        logo.src = "img/header/botaoContactosOff.png";
+        logo.src = "img/header/botaoContactosOff.jpg";
       }
     })
 
@@ -108,11 +113,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: 'ondeEstou.html',
       onEnter: function() {
          var logo = document.getElementById("nav5");
-        logo.src = "img/header/botaoOndeEstouOn.png";
+        logo.src = "img/header/botaoOndeEstouOn.jpg";
       },
       onExit: function() {
          var logo = document.getElementById("nav5");
-        logo.src = "img/header/botaoOndeEstouOff.png";
+        logo.src = "img/header/botaoOndeEstouOff.jpg";
       }
     })
 
@@ -121,14 +126,14 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: 'blog.html',
       onEnter: function() {
          document.getElementById("nav6").src = 
-         "img/header/botaoBlogOn.png";
+         "img/header/botaoBlogOn.jpg";
 
         //Vamos fazer aparecer o footer do Blog
         document.getElementById("footerBlog").style.display = "block";
       },
       onExit: function() {
          document.getElementById("nav6").src =
-         "img/header/botaoBlogOff.png";
+         "img/header/botaoBlogOff.jpg";
 
         //Vamos fazer desaparecer o footer do Blog
         document.getElementById("footerBlog").style.display = "none";
