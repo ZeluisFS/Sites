@@ -108,7 +108,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       }
     })
 
-    .state('ondeEstou', {
+    /*.state('ondeEstou', {
       url: '/ondeEstou', 
       templateUrl: 'ondeEstou.html',
       onEnter: function() {
@@ -119,7 +119,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
          var logo = document.getElementById("nav5");
         logo.src = "img/header/botaoOndeEstouOff.jpg";
       }
-    })
+    })*/
 
     .state('blog', {
       url: '/blog', 

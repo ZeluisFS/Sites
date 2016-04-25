@@ -143,7 +143,9 @@ p {
 
 .telefoneConsultas {
   display: block;
-  height: 60px;
+  height: 40px;
+  margin: 0 12%;
+  border-bottom: 1px solid gray;
 }
 
 .telefoneConsultas img {
@@ -164,7 +166,7 @@ p {
 }
 
 .emailContacto img {
-  width: 30%;
+  width: 40%;
   display: block;
   margin: 20px auto 0px auto;
 }
@@ -227,7 +229,7 @@ p {
 .laboratorioOndeEstou {
   width: 100%;
   margin-left: 12%;
-  margin-top: 45px;
+  margin-top: 20px;
 }
 
 .laboratorioOndeEstou img {
