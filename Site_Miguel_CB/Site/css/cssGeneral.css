@@ -35,6 +35,9 @@ p {
   width: 23%;
   margin: 25px auto 0px auto;
   display: block;
+  min-width: 237px;
+  min-height: 100px;
+}
 }
 
 
