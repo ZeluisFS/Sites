@@ -470,6 +470,14 @@ p {
     display: block;
   }
 
+  .conteudoHomeopatia {
+    padding-right: 0px;
+  }
+
+  .moradaLabOndeEstou1 {
+    display: none;
+  }
+
   .only-mobile { display: block; }
 
   .no-mobile {display: none;}
