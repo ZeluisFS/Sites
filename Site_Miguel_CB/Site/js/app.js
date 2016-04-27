@@ -144,6 +144,34 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 
 
 
+//Controllers
+routerApp.controller('mobileSelectCtrl', function($scope, $state) {
+  //Objecto que tem os selects do mobile select
+  $scope.options = [
+    { label: 'Medicamentos Homeopáticos', value: 'questoesFrequentes.questao1' },
+    { label: 'Como e quando surgiu?', value: 'questoesFrequentes.questao2' },
+    { label: 'O poder da homeopatia', value: 'questoesFrequentes.questao3' },
+    { label: 'Bebés, crianças, mulheres grávidas, lactantes e animais podem usar homeopatia', value: 'questoesFrequentes.questao4' },
+    { label: 'É possível tomar homeopáticos com medicamentos tradicionais ou aleopáticos?', value: 'questoesFrequentes.questao5' },
+    { label: 'Que formulações existem e como tomar?', value: 'questoesFrequentes.questao9' },
+    { label: 'Que reacções devo esperar?', value: 'questoesFrequentes.questao6' },
+    { label: 'A consulta homeopática', value: 'questoesFrequentes.questao7' },
+    { label: 'Efeito placebo', value: 'questoesFrequentes.questao8' }
+  ];
+
+  $scope.tt = $scope.options[0];
+
+  //Funcao que vai fazer ao escolher um select do mobile select ir para novo estado
+  $scope.locationChangeFunction = function(){
+    if ($scope.tt != null) {
+      $state.go($scope.tt);
+    }
+    
+    }
+});
+
+
+
 
 //Aqui fica todo o JS normal
 /*var navMenu = [6];

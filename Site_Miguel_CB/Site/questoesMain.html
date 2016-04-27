@@ -1,7 +1,8 @@
 <section>
   <div class="row">
     <div class="column ocuppies_1_of_2">
-      <nav class="perguntas">
+
+      <nav class="perguntas no-mobile">
         <ul>
           <li><a ui-sref=".questao1" ui-sref-active="perguntaActiva">
             Medicamentos Homeopáticos</a></li>
@@ -26,6 +27,13 @@
             Efeito placebo</a></li>
         </ul>
       </nav>
+
+      <nav class="only-mobile" ng-controller="mobileSelectCtrl">
+        <select id="mobileSelect" ng-model="tt" ng-options="opt.value as opt.label for opt in options" ng-change="locationChangeFunction()">
+          <option value="" selected="selected">-- Questões Frequentes --</option>
+        </select>
+      </nav>
+
     </div>
 
     <div class="column ocuppies_1_of_2">

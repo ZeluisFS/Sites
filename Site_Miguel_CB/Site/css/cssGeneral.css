@@ -16,9 +16,9 @@
     overflow-y: hidden; 
 }
 
-.only-mobile { display: block; }
+.only-mobile { display: none; }
 
-.no-mobile {display: none;}
+.no-mobile {display: block;}
 
 p {
   font-family: Myriad Pro, Helvetica;
@@ -364,6 +364,15 @@ p {
   background-color: rgb(179, 179, 179);
 }
 
+.only-mobile {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#mobileSelect {
+  text-align: center;
+}
+
 .resposta {
   overflow-y: auto;
   border-radius: 20px;
@@ -460,6 +469,10 @@ p {
     margin: 0;
     display: block;
   }
+
+  .only-mobile { display: block; }
+
+  .no-mobile {display: none;}
 
   .row .ocuppies_1_of_3:first-child {margin-left: 0%;}
 
