@@ -58,6 +58,8 @@ p {
 
 #mainMenu ul li a img {
   width: 6%;
+  min-width: 45px;
+  min-height: 43px;
 }
 
 #nav3 {
@@ -447,15 +449,18 @@ p {
   .row {width: 1300px;}
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   .column.ocuppies_1_of_2,
   .column.ocuppies_2_of_3,
   .column.ocuppies_1_of_3 {
-    width: 80%;
-    margin: 0 10%;
+    width: 100%;
+    margin: 0;
     display: block;
   }
-}*/
+
+  .row .ocuppies_1_of_3:first-child {margin-left: 0%;}
+
+}
 
 
 
