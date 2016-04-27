@@ -478,6 +478,10 @@ p {
     display: none;
   }
 
+  .moradaLabOndeEstou2 {
+    width: 80%;
+  }
+
   .only-mobile { display: block; }
 
   .no-mobile {display: none;}
