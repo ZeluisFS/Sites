@@ -89,6 +89,7 @@ p {
   height: 311px;
   max-width: 100%;
   margin-top: 50px;
+  margin-left: 15%;
 }
 
 .footerHomeopatia {
@@ -312,17 +313,30 @@ p {
 
 .artigos1Blog {
   display: inline-block;
-  width: 49%;
-  border-right: 1px solid gray;
+  width: 100%;
+  /*border-right: 1px solid gray;*/
 }
 
-.artigos2Blog {
+.artigos1Blog ul {
+  list-style-type: none;
+  margin-left: 15%;
+}
+
+.artigos1Blog ul li {
+  margin-top: 5px;
+}
+
+.artigos1Blog ul li a {
+  color: #545453
+}
+
+/*.artigos2Blog {
   box-sizing: border-box;
   vertical-align: top;
   display: inline-block;
   width: 49%;
   padding-left: 5%;
-}
+}*/
 
 .artigos1Blog p:first-child, .artigos2Blog p:first-child {
   margin-top: 0;
@@ -440,7 +454,7 @@ p {
   margin-left: 7%
 }
 
-.row > .column:first-child { margin-left: 0; }
+/*.row > .column:first-child { margin-left: 0; }*/
 
 .column:first-child {margin-left: 0%;}
 .row .ocuppies_1_of_3:first-child {margin-left: 7%;}
@@ -468,6 +482,10 @@ p {
     width: 100%;
     margin: 0;
     display: block;
+  }
+
+  .imagemHomeopatia {
+    margin-left: 0%;
   }
 
   .conteudoHomeopatia {
