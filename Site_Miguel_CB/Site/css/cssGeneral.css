@@ -498,6 +498,10 @@ p {
     padding-right: 0px;
   }
 
+  .imagemQuemSou {
+    padding-left: 0px;
+  }
+
   .moradaLabOndeEstou1 {
     display: none;
   }
