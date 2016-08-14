@@ -390,7 +390,7 @@ p {
 
 #mobileSelect {
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 
 .resposta {
@@ -504,6 +504,19 @@ p {
 
   .moradaLabOndeEstou2 {
     width: 80%;
+  }
+
+  .moradaLabOndeEstou2 p {
+    font-size: 12pt;
+  }
+
+  .telefoneConsultas img {
+    width: 75%;
+  }
+
+  .contacto {
+    background-color: white;
+    height: auto;
   }
 
   .only-mobile { display: block; }
