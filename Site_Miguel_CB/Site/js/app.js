@@ -99,9 +99,10 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       url: '/contacto', 
       templateUrl: 'contacto.html',
       onEnter: function() {
-         var logo = document.getElementById("nav4");
+        var logo = document.getElementById("nav4");
         logo.src = "img/header/botaoContactosOn.jpg";
       },
+
       onExit: function() {
          var logo = document.getElementById("nav4");
         logo.src = "img/header/botaoContactosOff.jpg";
@@ -174,11 +175,14 @@ routerApp.controller('mobileSelectCtrl', function($scope, $state) {
 
 
 //Aqui fica todo o JS normal
-/*var navMenu = [6];
 
-function initnavMenu() {
-  for (var i = 0; i < 6; i++) {
-    navMenu[i] = document.getElementById("nav" + i + 1);
-    console.log('nav' + i);
-  }
-}*/
+//Google maps
+    // function initialize() {
+    //   var mapProp = {
+    //     center:new google.maps.LatLng(51.508742,-0.120850),
+    //     zoom:5,
+    //     mapTypeId:google.maps.MapTypeId.ROADMAP
+    //   };
+    //   var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    // }
+    // google.maps.event.addDomListener(window, 'load', initialize);

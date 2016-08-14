@@ -38,7 +38,6 @@ p {
   min-width: 237px;
   min-height: 100px;
 }
-}
 
 
 #mainMenu {
@@ -138,6 +137,10 @@ p {
   width: 85%;
 }
 
+.entreEmContacto {
+  margin-top: 40px !important;
+}
+
 .marcacaoConsultas p, .entreEmContacto p {
   font-style: italic;
   color: white;
@@ -200,6 +203,10 @@ p {
   height: 490px;
 }
 
+#map {
+  width: 100%;
+} 
+
 .logoContacto img, .logoOndeEstou img, .logoBlog img,  .logoQuestoes img {
   display: block;
   margin: 50px auto 10px auto;
@@ -239,11 +246,6 @@ p {
   margin-top: 20px;
 }
 
-.laboratorioOndeEstou img {
-  display: block;
-  width: 60%;
-}
-
 .moradaLabOndeEstou1 {
   display: inline-block;
   width: 17%;
@@ -270,7 +272,7 @@ p {
 
 .moradaLabOndeEstou2 p {
     color: #A09F9F;
-    margin: 2px 0 0 0;
+    margin: 5px 0 0 0;
     font-family: Myriad Pro;
     font-size: 11pt;
 }
