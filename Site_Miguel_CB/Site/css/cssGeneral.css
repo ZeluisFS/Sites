@@ -204,7 +204,9 @@ p {
 }
 
 #map {
-  width: 100%;
+  width: 90%;
+  display: block;
+  margin: auto;
 } 
 
 .logoContacto img, .logoOndeEstou img, .logoBlog img,  .logoQuestoes img {
